@@ -22,7 +22,7 @@ QFA treats the lightcurve as a stream of rotation operators acting on a qubit de
 1.  **Prepare Data:** Ensure your lightcurves are `.csv` files with `time` and `flux` columns. Esure they are detrended.
 2.  **Run QFA:**
     ```bash
-    python run_qfa.py --input_dir ./my_data --output_dir ./clean_data --qfa_pct 5.0
+    python run_qfa.py --input_dir ./my_data --output_dir ./clean_data --qfa_pct 5.0 --bin_pct 15.0
     ```
 3.  **Output:** You will get `clean_data/augmented_star.csv`.
     *   `time`: Reduced timestamps.
