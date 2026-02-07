@@ -1,2 +1,2 @@
 # PennyPusher
-An alternative, quantum finite automata based, pre-processing software for exoplanet detection.
+An alternative, QFA based, prefilter for exoplanet detection, which maintains resolution at transit events. 
